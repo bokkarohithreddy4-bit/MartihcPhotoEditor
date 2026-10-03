@@ -1,0 +1,98 @@
+criticism_theories = '''1. Structuralist Criticism
+Structure is a whole consisting of relations between elements and elements, and
+these relations have invariant properties through a series of transformative
+processes. In the analysis of paintings, it attempts to elucidate the cultural and
+social meanings behind the symbols and signs in the painting by analysing them, or
+it considers the painting as a kind of ’visual language’ and analyses its ’grammar’.It includes special mention of the colour
+used and where they were used.
+It also attempts to interpret meanings and messages by capturing the dichotomies
+(good and evil, male and female, civilised and barbaric) within the work.
+2. Narrative Criticism
+Stories are everywhere. When a chain of events creates a flow, a story is born. In
+this sense we are living a story of some kind. The central interest of a story is not
+whether something succeeds or fails, but how we can deal with events that
+suddenly fall upon us. This is the point of view from which we read the work in
+time.
+3. Reception Theory Criticism
+Reception theory denies the autonomy of a work of art and emphasises the
+reactions and interpretations of those who receive it. The meaning of a work of art
+depends on the knowledge, experience, values and context of the viewer, and is
+assumed to be diverse and changing over time.
+4. Deconstruction Criticism
+The basis of deconstruction is to break with the notion held by structuralism that
+there is a ’centre’ and that ’structurality’ is preserved. It argues that it is deceptive
+for people who cannot go outside of culture to draw lines such as the dichotomy
+between ’nature’ and ’culture’. Specifically, it deconstructs the central
+interpretation of the work and explores the contradictions within and around the
+work.
+5. Psychoanalytic Criticism
+Focuses on the latent (unconscious) content of a work of art, which does not appear
+on the surface, but is a repository of the desires and conflicts that people repress.
+By questioning the surface meaning of a work of art and focusing on the detailed
+expression of the work, which may contradict the subject of the work, it is possible
+to trace back to the deeper (unconscious) meaning of the work. Focus on the
+symbolism in the work, the psychological analysis of the characters and the
+unconscious of the author.
+6. Thematic Criticism
+Through creation, the artist explores life, expresses the depths of consciousness
+and discovers unknown dimensions. He also discerns thematic continuity in the
+artist’s experiences suggested by the work. Criticism is the unravelling of the
+secrets of such creative acts and becoming one with the existence and
+consciousness of the artist. Specifically, after identifying the theme or motif of a
+work, it examines how the symbols in the work emphasise the theme or the cultural
+and historical background of the theme.
+7. Feminist Criticism
+Analyses and evaluates works of art from a female perspective to identify women’s
+roles, structures of gender inequality and sexism, and power structures. Explores
+how women are portrayed, the roles they are given, or their subjective expression
+against the male gaze.
+8. Gender Criticism
+Identifies how gender is constructed and functions within culture and society.
+Emphasises that gender is not fixed through gender fluidity, sexual identity and
+critiques of heteronormativity. Michel Foucault, who laid the foundations of gender
+theory, discussed modern power as a mechanism through which people, by
+identifying with their sexuality, subjectively follow and realise the ’normal’ ways
+of being directed by the state and medicine.
+9. Genetic Criticism
+At the heart of the theory of generation is the concept that a work of art is the
+product of a process of production. The work is conceived by the author, from its
+main components down to the smallest detail, and continues to be generated and
+transformed through various developments and modifications. Furthermore, it is
+often the case that the work is completed at a certain point in time but continues to
+be produced as an extension of that point in time. A generative interpretation
+considers the process of production of a work, as well as the many works that must
+have emerged in the process of production.
+10. Marxist Criticism
+Criticism from a Marxist perspective sees the artist not as a privileged subject, but
+as an entity that strongly reflects the system and ideology of the society in which
+he or she lives. While recognising the relative autonomy of artistic works, they are
+also seen as being decisively influenced by the historical and social conditions of
+their time.
+11. Cultural Materialist Criticism/New Historicist Criticism
+Both Cultural Materialism and New Historicist do not discuss culture in isolation,
+but in relation to history and politics. Cultural materialism, based on Marxism,
+attempts to view culture as the lived experience of people living in a society at a
+given time, with its complex processes of change and conflict. New historicism
+aims to clarify how culture relates to historical power structures and to dismantle
+fixed views of history.
+12. Sociocriticism
+Sociocritical criticism explores how society, history and ideology are interwoven
+within a work of art. It questions the reproduction of the social meaning of the
+work and the relationship between the work and the world.
+13. Cultural Studies
+Cultural Studies sees everyday life as a site of domination, resistance and
+negotiation by social forces, and sees culture as a representational node of these
+power relations. In other words, culture is the historical production of multiple
+powers in conflict and negotiation in all everyday social practices.
+14. Systems Theory Criticism
+Luhmann’s systems theory considers art as an independent social system and
+analyses its functions and social roles. It emphasises that works of art demonstrate
+the various interpretability of reality and provide unique communication through
+perception. By considering its interaction with other social systems, the social
+significance of art is more deeply understood.
+15. Postcolonial criticism/Transnationalism
+Postcolonial criticism elucidates the profound cultural and social effects of
+colonialism and re-evaluates history and culture from the perspective of the
+subjugated and anti-imperialism. Criticism based on transnationalism, on the other
+hand, takes into account not only the country or region where the work originated,
+but also other cultures and international contexts that have influenced it.'''

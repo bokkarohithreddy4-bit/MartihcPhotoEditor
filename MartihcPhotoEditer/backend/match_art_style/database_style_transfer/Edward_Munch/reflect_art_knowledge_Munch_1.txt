@@ -1,0 +1,71 @@
+### Form
+
+- Central object: single human figure (astronaut), fully three-dimensional, opaque.
+- Surrounding elements: multiple flat irregular shapes (sand, rocks), all 2-D outlines with sharp edges and jagged forms.
+- Background: large sweeping shapes (clouds and flames), 3-D volumes that are mostly translucent with a few areas of opaque color.
+
+### Composition
+
+- Layout type: asymmetrical.
+- Primary focal point: astronaut figure positioned center-left at 30% width, 60% height.
+- Balance method: heavier visual weight at the top with fiery colors and lighter ground elements.
+- Directional flow: diagonal from bottom-left to top-right with a Z-shaped path created by the direction of the flames.
+- Negative space areas: expansive upper area (approximately 60% of the height), creating a sense of openness.
+
+### Material
+
+- Medium: digital painting.
+- Surface feel: smooth with a soft blend of colors.
+- Visible artifacts: some brushstrokes present, adding texture to the clouds and ground.
+
+### Technique
+
+- Application style: layered glazing approach with gradient effects for smooth transitions.
+- Precision level: semi-precise with loose gestural elements.
+- Special process: digital airbrush for soft edges versus sharper outlines around the astronaut.
+
+### Color
+
+- Astronaut suit: primarily white with dark gray elements and a reflective helmet.
+- Flames: vivid orange, red, and yellow hues at the top right, creating visual warmth.
+- Sand: muted tones of brown and beige at the bottom, signifying the ground.
+- Sky: pastel blue and white gradations, providing contrast against the fiery colors.
+- The colors help establish a contrast between the cool, calm sky and the intense heat of the flames.
+
+### Line
+
+- Line types: continuous and curved for contours.
+- Weight: medium (3-5 px) for the astronaut details, heavier in areas of shading.
+- Function: outline contour of the astronaut and internal detailing on the suit.
+- Direction: curved lines for the smoke and flames, straight lines for the astronaut's body.
+
+### Perspective
+
+- Perspective type: atmospheric fade with a slight two-point perspective.
+- Vanishing-point location: approximately at the horizon line near the center of the frame.
+- Degree of foreshortening: slight, with the astronaut appearing full-length relative to the space.
+- Horizon line height: approximately 30% of frame height.
+
+### Space
+
+- Depth range: moderate (~1 m impression) created by layering of elements.
+- Spatial continuity: uninterrupted backdrop with gradual transitions from ground to sky.
+- Viewer position: eye-level, providing a grounded perspective of the scene.
+
+### Proportion
+
+- Size ratios: astronaut’s height is approximately 1:5 of the total height of the artwork.
+- Proportions are naturalistic, reflecting real human anatomy and scale.
+
+### Scale
+
+- Overall canvas size: assumed to be large, approximately 60 cm × 90 cm.
+- Relative scale of main subject: astronaut fills about 40% height of the canvas.
+- Scale perception: human-scale with vast background elements making the astronaut appear smaller, enhancing the feeling of isolation.
+
+### Texture
+
+- Real texture: smooth, no significant raised elements; some implied texture on the ground with brushstroke patterns.
+- Implied texture: soft gradients in the sky and rougher strokes in the flames.
+- Pattern size: roughly 5 px period for ground texture with broader strokes in the flames.
+- Texture purpose: smooth astronaut suit emphasizes technology, while rough ground texture signifies the alien environment.

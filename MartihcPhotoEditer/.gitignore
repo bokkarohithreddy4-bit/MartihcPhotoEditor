@@ -1,0 +1,6 @@
+# Node.js / JavaScript project ignores
+node_modules/
+dist/
+build/
+.env
+*.log

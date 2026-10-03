@@ -1,0 +1,70 @@
+### Form
+
+- Central object: irregular organic blob shaped like a boat, fully three-dimensional, opaque.
+- Five human figures: three-dimensional, opaque; various shapes including cylindrical (torso), conical (head), and irregular parts for limbs.
+- Ocean surface: irregular organic forms, 2-D outlines and some 3-D volumetric waves, edges softly rounded.
+
+### Composition
+
+- Layout type: asymmetrical.
+- Primary focal point: central figure at 50% width, 50% height.
+- Balance method: heavier left side due to figures, lighter right due to open water.
+- Directional flow: downward diagonal from top-left to bottom-right, following the boat and figures.
+- Negative space: ocean occupies approximately 40% of the frame beneath the figures.
+
+### Material
+
+- Medium: oil paint on canvas.
+- Surface feel: matte with slight texture from brushwork.
+- Visible artifacts: soft visible brushstrokes, no clear lines typical of impasto.
+
+### Technique
+
+- Application style: layered glazing with varying thickness.
+- Precision level: loose gestural for figures, more precise on boat and water details.
+- Special process: blending for smoother transitions in sky and water.
+
+### Color
+
+- Sky: various shades of gray (light gray at the top, transitioning to darker gray near the horizon).
+- Water: blue with hints of gray, near the boat appearing more turbulent with darker blue tones.
+- Boat: brown, darker near the waterline, with highlights suggesting a polished surface.
+- Figures: skin tones primarily dark brown, clothes in bright colors (orange for one figure, red for another, blue for one wearing a hat, and gray for another), creating contrast against the muted background.
+
+### Line
+
+- Line types: continuous for figure outlines, and slightly irregular for the boat shape.
+- Weight: medium (3-5 px) for figures, heavier on the boat outline (>8 px).
+- Function: outline contours of figures and boat, internal detail suggested in clothing folds.
+- Direction: mostly vertical and horizontal lines in figures, curved lines in the ocean.
+
+### Perspective
+
+- Perspective type: atmospheric fade with low depth.
+- Vanishing points: not clearly defined in the artwork; suggestive of horizon line at water level.
+- Degree of foreshortening: minimal on figures but noticeable in the boat's angle.
+- Horizon line height: approximately 40% of frame height.
+
+### Space
+
+- Depth range: shallow impression (<20 cm).
+- Spatial continuity: uninterrupted between figures and ocean.
+- Viewer position: eye-level perspective.
+
+### Proportion
+
+- Head to body ratio: heads approximately 1:4 of full figure height.
+- Idealized proportions: slightly exaggerated for emphasis on clothing and gestures.
+
+### Scale
+
+- Overall canvas size: approximately 100 cm × 70 cm.
+- Relative scale of main subject to canvas: figures fill about 60% height of the canvas.
+- Human-scale: viewers can relate to the size of the figures.
+
+### Texture
+
+- Real texture: smooth areas on the boat, rough texture in ocean waves.
+- Implied texture: soft waves depicted with a blend of color suggesting motion.
+- Pattern size: wave patterns within 5 px variation.
+- Purpose: rough texture to signify the movement of water, smooth for the boat's surface.

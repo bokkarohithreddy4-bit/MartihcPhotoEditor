@@ -1,0 +1,76 @@
+### Form
+
+- **Shapes:** 
+  - Sun: small circle, 2-D outline.
+  - Boats: irregular organic blobs, partially 3-D.
+  - Background structures: irregular organic blobs, suggest 3-D volume.
+- **Edge Quality:** 
+  - Sun edges: sharp.
+  - Boats and background: softly rounded and blurred.
+- **Solidity:** 
+  - Sun: opaque.
+  - Water and buildings: translucent to opaque.
+
+### Composition
+
+- **Layout Type:** Asymmetrical.
+- **Primary Focal Point:** Sun, located center-right at approximately 60% width, 40% height.
+- **Balance Method:** Heavier elements concentrated at the bottom with lighter elements distributed across the top.
+- **Directional Flow:** Eye moves from the sun to its reflection downward.
+- **Negative Space:** Sky and water occupy large areas, approximately 70% of the frame.
+
+### Material
+
+- **Medium:** Oil paint on canvas.
+- **Surface Feel:** Matte with some texture due to brushwork.
+- **Visible Artefacts:** Brushstrokes evident across the surface.
+
+### Technique
+
+- **Application Style:** Loose gestural application with visible brushstrokes.
+- **Precision Level:** Impressionistic, not highly precise.
+- **Special Process:** No special process identifiable beyond typical brushwork.
+
+### Color
+
+- **Sky and Water:** Predominantly blue-gray with variations of light blue and hints of green.
+- **Sun and Reflection:** Strong orange for the sun, with reflective streaks of orange on the water below.
+- **Background Structures:** Subdued blue and gray tones, merging slightly with the sky and water.
+
+### Line
+
+- **Line Types:** Softly blended, without distinct lines.
+- **Weight:** N/A – blended.
+- **Function:** N/A – representational with blended display.
+- **Direction:** General horizontal and vertical impressions from overlaps in buildings.
+
+### Perspective
+
+- **Perspective Type:** Atmospheric fade with limited linear perspective.
+- **Vanishing-Point Location:** Not clearly defined.
+- **Foreshortening:** Minimal.
+- **Horizon Line Height:** Approximately 50% of the frame height.
+
+### Space
+
+- **Depth Range:** Shallow depth impression, less than 20 cm.
+- **Spatial Continuity:** Continuous, though elements are soft and merged.
+- **Viewer Position:** Eye-level view.
+
+### Proportion
+
+- **Size Ratios:** Sun-to-water reflection is approximately 1:8.
+- **Naturalistic or Idealized:** Naturalistic with atmospheric effects.
+
+### Scale
+
+- **Overall Canvas Size:** Not specified, standard medium-scale canvas.
+- **Relative Scale:** Main subjects fill about 50% height within the context.
+- **Internal Scale Cues:** Human-scale suggested by the implied size of the small boats.
+
+### Texture
+
+- **Real Texture:** Brushstrokes visible with coarse canvas texture.
+- **Implied Texture:** Smooth water surface reflection suggested through color shifts.
+- **Pattern Size:** Brushstrokes roughly 5-10 px wide.
+- **Purpose:** Texture conveys atmospheric mood and impression with loose realism.

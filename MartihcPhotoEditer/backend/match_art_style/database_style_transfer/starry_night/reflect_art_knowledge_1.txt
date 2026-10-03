@@ -1,0 +1,74 @@
+### Form
+
+- Central object: single dome, fully three-dimensional, opaque.
+- Surrounding structures: four tall, slender cylinders (minarets), fully three-dimensional, opaque.
+- Base structure: large rectangle, fully three-dimensional, opaque.
+- Water reflection: elongated rectangle, 2-D outline, smooth edges.
+- Shrub shapes: multiple tall, thin irregular organic blobs, 3-D volumes, opaque.
+
+### Composition
+
+- Layout type: asymmetrical.
+- Primary focal point: center at 50% width, 60% height (the dome).
+- Balance method: heavier bottom with dome and base, lighter top with sky.
+- Directional flow: Z-shaped reading path from bottom left to top right and back down to bottom right.
+- Negative space: approximately 40% of the frame, around the dome and the reflecting pool.
+
+### Material
+
+- Medium: digital illustration.
+- Surface feel: smooth, with slight digital brush texture.
+- Visible artefacts: minimal, clean lines, no pixelation.
+
+### Technique
+
+- Application style: flat vector fill with layered shading.
+- Precision level: highly precise.
+- Special process: none noted.
+
+### Color
+
+- Background: gradient of light blue to pale yellow at the top (sky).
+- Dome: cream with hints of light gold.
+- Minarets: pale stone color, consistent with dome.
+- Base structure: beige with darker accents for details.
+- Reflection: mirrored colors of the sky and structures in the water.
+- Shrubs: deep green for the foliage, contrasting with the base colors.
+
+### Line
+
+- Line types: continuous.
+- Weight: medium (3-5 px).
+- Function: outline contour of structures and shapes, internal detail in the archways.
+- Direction: vertical for minarets, horizontal for the base and water line.
+
+### Perspective
+
+- Perspective type: two-point perspective.
+- Vanishing points: one located beyond the left edge, the other beyond the right edge of the frame.
+- Degree of foreshortening on key objects: minarets slightly shortened in height as they recede.
+- Horizon line height: approximately 40% of the frame height.
+
+### Space
+
+- Depth range: moderate (~1 m impression).
+- Spatial continuity: uninterrupted view to the dome and structures, with reflections in the water.
+- Viewer position: eye-level.
+
+### Proportion
+
+- Dome height = 1:3 of full building height.
+- Minarets = 1:2 height of dome.
+- Base structure = 1:4 height of full structure.
+
+### Scale
+
+- Overall canvas size: 60 cm × 90 cm.
+- Relative scale of main subject: dome fills approximately 30% height of canvas.
+- Scale: human-scale (relatable to viewer).
+
+### Texture
+
+- Real texture: smooth digital finish with no physical texture.
+- Implied texture: smooth surface on the dome and structures, representing polished stone.
+- Pattern size: no visible patterns, but smooth transitions in shading.

@@ -1,0 +1,203 @@
+# PhotoArtAgent - Semantic Editor Guide
+
+## Overview
+
+After the 5 main iterations complete, you can enter **Semantic Editor Mode** to refine your image using intuitive axes instead of technical parameters.
+
+## How It Works
+
+### 1. Main Iterations (1-5)
+- AI analyzes your prompt and applies technical edits
+- You approve or continue after each iteration
+- Outputs: `01_final.jpg`, `02_final.jpg`, etc.
+
+### 2. Semantic Analysis
+- AI analyzes the final iteration image
+- Generates 2 semantic axes based on the photo's characteristics
+- Examples:
+  - **Warm-Cool**: Color temperature
+  - **Vibrant-Muted**: Color intensity
+  - **Dramatic-Soft**: Contrast and mood
+  - **Happy-Gloomy**: Overall atmosphere
+  - **Bright-Dark**: Exposure
+  - **Vintage-Modern**: Stylistic era
+
+### 3. Terminal-Based Editing (Absolute Mode)
+You enter coordinates for each axis:
+
+```
+Warm-Cool [-1.0 to 1.0]: 0.5
+Vibrant-Muted [-1.0 to 1.0]: -0.3
+```
+
+**IMPORTANT**:
+- Each semantic edit is applied to the **same base image** (e.g., `05_final.jpg`)
+- `semantic_01.jpg`, `semantic_02.jpg`, etc. are **independent variations**
+- They do NOT build on each other
+- This lets you explore different directions without iterative compounding
+
+## Example Session
+
+```
+================================================================================
+SEMANTIC EDITOR MODE
+================================================================================
+
+📊 SEMANTIC AXES:
+----------------------------------------------------------------------
+
+1. Warm-Cool
+   Left  (-1.0): Warm, golden tones
+   Right (+1.0): Cool, blue tones
+   Current: 0.30
+   Description: Temperature and color mood
+
+2. Vibrant-Muted
+   Left  (-1.0): Rich, saturated colors
+   Right (+1.0): Subtle, soft colors
+   Current: -0.20
+   Description: Color intensity
+----------------------------------------------------------------------
+
+================================================================================
+SEMANTIC EDIT #1
+================================================================================
+📷 Base image: 05_final.jpg
+
+Enter coordinates (or 'q' to quit, 'r' to reset):
+  Warm-Cool [-1.0 to 1.0]: -0.5
+  Vibrant-Muted [-1.0 to 1.0]: -0.7
+
+📍 Coordinates: (-0.50, -0.70)
+⚙️  Converting coordinates to edit parameters...
+🎨 Applying edits to base image (absolute changes)...
+✅ Saved: images/output/semantic_01.jpg
+💾 Parameters saved: images/output/semantic_01_params.json
+
+----------------------------------------------------------------------
+🔄 Continue editing? (y/n): y
+
+================================================================================
+SEMANTIC EDIT #2
+================================================================================
+📷 Base image: 05_final.jpg
+
+Enter coordinates (or 'q' to quit, 'r' to reset):
+  Warm-Cool [-1.0 to 1.0]: 0.8
+  Vibrant-Muted [-1.0 to 1.0]: 0.2
+
+📍 Coordinates: (0.80, 0.20)
+⚙️  Converting coordinates to edit parameters...
+🎨 Applying edits to base image (absolute changes)...
+✅ Saved: images/output/semantic_02.jpg
+```
+
+**Note**: Both `semantic_01.jpg` and `semantic_02.jpg` are edited from `05_final.jpg`, not from each other!
+
+## Commands
+
+- **Numbers** (-1.0 to 1.0): Set axis value
+- **`q`**: Quit semantic editor
+- **`r`**: Reset to neutral (0.0, 0.0)
+- **`y`** (at continue prompt): Continue editing
+- **`n`** (at continue prompt): Exit
+
+## Output Files
+
+### Main Iterations
+- `00_original.jpg` - Your input image
+- `01_final.jpg` to `05_final.jpg` - Iteration results
+- `response_01.json` to `response_05.json` - AI parameters
+
+### Semantic Editor
+- `semantic_axes.json` - Axis definitions
+- `semantic_01.jpg`, `semantic_02.jpg`, etc. - Edited results
+- `semantic_01_params.json` - Technical parameters used
+
+## Understanding Axes
+
+### Scale Interpretation
+
+| Value | Meaning |
+|-------|---------|
+| **-1.0** | Maximum towards LEFT pole |
+| **-0.5** | Moderate towards LEFT pole |
+| **0.0** | Neutral (no change) |
+| **+0.5** | Moderate towards RIGHT pole |
+| **+1.0** | Maximum towards RIGHT pole |
+
+### Common Axis Types
+
+#### Warm-Cool
+- **-1.0**: Very warm (golden, orange, sunset tones)
+- **+1.0**: Very cool (blue, cyan, arctic tones)
+
+#### Vibrant-Muted
+- **-1.0**: Highly saturated, vivid colors
+- **+1.0**: Desaturated, subtle, pastel colors
+
+#### Dramatic-Soft
+- **-1.0**: High contrast, bold shadows/highlights
+- **+1.0**: Low contrast, gentle, diffused
+
+#### Happy-Gloomy
+- **-1.0**: Dark, moody, melancholic
+- **+1.0**: Bright, cheerful, uplifting
+
+## Technical Mapping
+
+Behind the scenes, coordinates are converted to OpenCV parameters:
+
+```python
+# Example: Warm-Cool axis
+If axis_value = 0.5 (cooler):
+    adjust_temp_tint["temp"] = 0.5 * 30.0 = +15.0
+
+# Example: Vibrant-Muted axis
+If axis_value = -0.7 (more vibrant):
+    adjust_saturation["scale"] = 1.0 - (-0.7 * 0.35) = 1.245
+    adjust_vibrance["strength"] = max(0, -(-0.7) * 0.6) = 0.42
+```
+
+## Tips
+
+1. **Start Small**: Begin with values around ±0.3 to ±0.5
+2. **Explore Freely**: Each edit is independent, so try different directions
+3. **Compare Results**: Since all edits start from the same base, you can easily compare variations
+4. **Save Favorites**: Note down coordinates you like (they're also saved in JSON files)
+5. **Experiment**: Try extreme values (±1.0) to understand axis ranges
+6. **Mix & Match**: Try opposite combinations like (+1.0, -1.0) or (-1.0, +1.0)
+7. **Check Files**: Review `semantic_XX_params.json` to see technical details
+
+## Troubleshooting
+
+### "Cloudinary upload failed"
+- Falls back to default axes (Warm-Cool, Vibrant-Muted)
+- Editing still works, just with generic axes
+
+### Axes don't match my image
+- The AI picks axes based on image analysis
+- You can still use the provided axes effectively
+
+### Changes too subtle/extreme
+- Adjust your input values
+- Check the axis descriptions for guidance
+- The mapping is calibrated for typical photos
+
+## API Usage
+
+If running standalone:
+```bash
+python semantic_editor.py path/to/image.jpg
+```
+
+## Notes
+
+- All edits apply to the **final iteration result** (e.g., `05_final.jpg`)
+- Each semantic edit is **independent** - they don't build on each other
+- `semantic_01.jpg` = base + coordinates (0.5, -0.3)
+- `semantic_02.jpg` = base + coordinates (-0.8, 0.6)
+- This lets you create multiple variations and pick your favorite
+- You can create unlimited variations (semantic_01, semantic_02, semantic_03...)
+- Parameters are saved for reproducibility
+- GPU acceleration applies if available
